@@ -6,8 +6,18 @@ const fs = require('fs');
 const questions = [
     {
         type: 'input',
+        name: 'github',
+        message: 'Enter your GitHub Username',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address.',
+    },
+    {
+        type: 'input',
         name: 'title',
-        message: 'What is your project title?',
+        message: "What is your project's name?",
     },
     {
         type: 'input',
@@ -20,29 +30,30 @@ const questions = [
         message: 'What are the installation instructions?',
     },
     {
+        type: 'checkbox',
+        name: 'license',
+        message: 'Which license would you like your project to have?',
+        choices: ['',''],
+    },
+    {
+        type: 'input',
+        name: 'install',
+        message: 'What command should be run to install dependencies?',
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'What command should be run to run tests?',
+    },
+    {
         type: 'input',
         name: 'usage',
-        message: 'What are ways to use your application?',
+        message: 'What does the user need to know about using the repo?',
     },
     {
         type: 'input',
-        name: 'github',
-        message: 'Enter your GitHub Username',
-    },
-    {
-        type: 'input',
-        name: 'linkedin',
-        message: 'Enter your LinkedIn URL.',
-    },
-    {
-        type: 'input',
-        name: 'github',
-        message: 'Enter your GitHub Username',
-    },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'Enter your email address.',
+        name: 'contributing',
+        message: 'What does the user need to know about contributing to the repo?',
     },
 ];
 
