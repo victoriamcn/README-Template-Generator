@@ -3,9 +3,49 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(title, description, install, tests, usage, contributing, email) {
     //String literal for markup language
+    `![License]()
 
+    # ${title}
+    
+    ## Description
+
+    ${description}
+
+    ## Table of Contents
+    - [Installation](#installation)
+    - [Tests](#tests)
+    - [Usage](#usage)
+    - [Contributing](#contributing)
+    - [Questions](#Questions)
+
+    ## Installation
+
+    To install please run
+    ```
+    ${install}
+    ```
+
+    ## Tests
+
+    To test please run
+    ```
+    ${tests}
+    ```
+
+    ## Usage
+
+    ${usage}
+
+    ## Contributing
+
+    ${contributing}
+
+    ## Questions
+
+    If you have any questions or concerns, you may reach me at ${email}`
+    
     //Array of questions for user input
     inquirer
         .prompt([
@@ -28,11 +68,6 @@ function writeToFile(fileName, data) {
                 type: 'input',
                 name: 'description',
                 message: 'Please type a short description of your project:',
-            },
-            {
-                type: 'input',
-                name: 'installation',
-                message: 'What are the installation instructions?',
             },
             {
                 type: 'checkbox',
@@ -62,13 +97,13 @@ function writeToFile(fileName, data) {
             },
         ])
         .then(response) => {
-            //based on responses, generate content
-            const readMeContent = writeToFile(response);
-            // if error, display error. else, display that file generated
-            fs.writeFile('README.md', readMeContent, (err) =>
+        //based on responses, generate content
+        const readMeContent = writeToFile(response);
+        // if error, display error. else, display that file generated
+        fs.writeFile('README.md', readMeContent, (err) =>
             err ? console.log(err) : console.log('Successfully generated your README!')
-          );
-        }
+        );
+    }
 }
 
 // TODO: Create a function to initialize app
