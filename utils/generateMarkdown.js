@@ -21,7 +21,6 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'None') {
     return `## License
-
     \n This is licensed under ${license}\n
     `
   }
@@ -46,16 +45,22 @@ ${data.description}
 - [Tests](#tests)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Questions](#Questions)
+- [Questions](#questions)
 - ${renderLicenseLink(data.license)}
 
 ## Installation
 
-To install please run ${data.install}
+To install please run 
+\`\`\`
+${data.install}
+\`\`\`
 
 ## Tests
 
-To test please run ${data.tests}
+To test please run
+\`\`\`
+${data.tests}
+\`\`\`
 
 ## Usage
 

@@ -5,16 +5,16 @@
 
 ## Description
 
-A command-line application that dynamically generates a professional README.md file from a user's input.
+A command-line application that dynamically generates a professional README.md file from a user's input
 
 ## Table of Contents
 - [Installation](#installation)
 - [Tests](#tests)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Questions](#Questions)
-- [License](#license)
-- [Credits](#credits)
+- [Questions](#questions)
+- 
+[License](#license)
 
 
 ## Installation
@@ -33,23 +33,20 @@ npm test
 
 ## Usage
 
-Use the command line to generate basic content for your README.
+Open the index.js file in the Integrated Terminal. Type ‘node index.js’ in the command line. Use the command line to answer the prompts.
 
 ## Contributing
 
-Create a git fork to add your own code
+Create a git fork to add your own code.
 
 ## Questions
 
-If you have any questions or concerns, you may reach me at vmcnorrill@gmail.com
+If you have any questions or concerns, you may reach me at vmcnorrill@gmail.com.
 
+To see my other projects, please view my GitHub profile: [victoriamcn](https://github.com/victoriamcn).
 
 ## License
+    
+ This is licensed under MIT
 
-This is licensed under MIT.
-
-## Credits
-
-### Georgia Tech Staff
-My instructor, [Saurav Khatiwada](https://github.com/khatiwadasaurav).
-My tutor, [Rene Trevino](https://github.com/neyneyalldayday).
+    
