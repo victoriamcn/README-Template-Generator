@@ -50,6 +50,6 @@ This is licensed under MIT.
 
 ## Credits
 
-# Georgia Tech Staff
+### Georgia Tech Staff
 My instructor, [Saurav Khatiwada](https://github.com/khatiwadasaurav).
 My tutor, [Rene Trevino](https://github.com/neyneyalldayday).
