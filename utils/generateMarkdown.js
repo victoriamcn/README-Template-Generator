@@ -67,7 +67,9 @@ ${data.contributing}
 
 ## Questions
 
-If you have any questions or concerns, you may reach me at ${data.email}
+If you have any questions or concerns, you may reach me at ${data.email}.
+
+To see my other projects, please view my GitHub profile: [${data.github}](https://github.com/${data.github}).
 
 ${renderLicenseSection(data.license)}
 `;
