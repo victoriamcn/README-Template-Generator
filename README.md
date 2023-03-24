@@ -39,7 +39,6 @@ npm test
 4. Type ‘node index.js’ in the command line.
 5. Use the command line to answer the prompts.
 
-**Demo Link Below:**
 Click to watch the [demo](https://www.youtube.com/watch?v=1RUy55LR8VA).
 
 ## Contributing
