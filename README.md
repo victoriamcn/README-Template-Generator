@@ -5,7 +5,7 @@
 
 ## Description
 
-A command-line application that dynamically generates a professional README.md file from a user's input
+A command-line application that dynamically generates a professional README.md file from a user's input.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,8 +13,8 @@ A command-line application that dynamically generates a professional README.md f
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Questions](#questions)
-- 
-[License](#license)
+- [License](#license)
+- [Credits](#credits)
 
 
 ## Installation
@@ -33,20 +33,32 @@ npm test
 
 ## Usage
 
-Open the index.js file in the Integrated Terminal. Type ‘node index.js’ in the command line. Use the command line to answer the prompts.
+1. Clone this repository to your local computer.
+2. Open the repo in VS Code.
+3. Open the index.js file in the Integrated Terminal.
+4. Type ‘node index.js’ in the command line.
+5. Use the command line to answer the prompts.
+
+**Refer to Demo Below:**
+![Demo of node.js project in the terminal](./images/Mod9-nodejs.webm.mov)
 
 ## Contributing
 
-Create a git fork to add your own code.
+To contribute to this project, you may create a git fork.
 
 ## Questions
 
 If you have any questions or concerns, you may reach me at vmcnorrill@gmail.com.
 
-To see my other projects, please view my GitHub profile: [victoriamcn](https://github.com/victoriamcn).
+To view my other projects, you can visit my Git Hub profile: [victoriamcn](https://github.com/victoriamcn)
+
 
 ## License
-    
- This is licensed under MIT
 
-    
+This project is licensed under MIT.
+
+## Credits
+
+### Georgia Tech Staff
+My instructor, [Saurav Khatiwada](https://github.com/khatiwadasaurav).
+My tutor, [Rene Trevino](https://github.com/neyneyalldayday).
