@@ -1,4 +1,3 @@
-
 ![GitHub License Badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
 # README Template Generator
@@ -59,5 +58,6 @@ This project is licensed under MIT.
 ## Credits
 
 ### Georgia Tech Staff
-My instructor, [Saurav Khatiwada](https://github.com/khatiwadasaurav).
-My tutor, [Rene Trevino](https://github.com/neyneyalldayday).
+
+- My instructor, [Saurav Khatiwada](https://github.com/khatiwadasaurav).
+- My tutor, [Rene Trevino](https://github.com/neyneyalldayday).
