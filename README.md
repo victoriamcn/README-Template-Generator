@@ -1,13 +1,11 @@
 
+![GitHub License Badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
-![GitHub license](#license)
-
-
-# yes
+# README Template Generator
 
 ## Description
 
-yes
+A command-line application that dynamically generates a professional README.md file from a user's input
 
 ## Table of Contents
 - [Installation](#installation)
@@ -16,31 +14,33 @@ yes
 - [Contributing](#contributing)
 - [Questions](#Questions)
 - 
-![GitHub license](#license)
+[License](#license)
 
 
 ## Installation
 
-To install please run yes
+To install please run npm i inquirer@8.2.4
 
 ## Tests
 
-To test please run yes
+To test please run npm test
 
 ## Usage
 
-yes
+Use the command line to complete the README
 
 ## Contributing
 
-yes
+Create a git fork to add your own code
 
 ## Questions
 
-If you have any questions or concerns, you may reach me at gmail
+If you have any questions or concerns, you may reach me at vmcnorrill@gmail.com
 
 
-    ## License
+## License
+
     
- This is licensed under APACHE 2.0
+ This is licensed under MIT
 
+    
