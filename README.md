@@ -40,7 +40,7 @@ npm test
 5. Use the command line to answer the prompts.
 
 **Refer to Demo Below:**
-![Demo of node.js project in the terminal](./images/Mod9-nodejs.webm.mov)
+[![Click to Watch the Demo](https://www.youtube.com/watch?v=1RUy55LR8VA.jpg)](https://www.youtube.com/watch?v=1RUy55LR8VA)
 
 ## Contributing
 
