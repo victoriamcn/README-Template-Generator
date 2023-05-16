@@ -46,7 +46,7 @@ To contribute to this project, you may create a git fork.
 
 ## Questions
 
-If you have any questions or concerns, you may reach me at vmcnorrill@gmail.com.
+If you have any questions or concerns, you may reach me at example@gmail.com.
 
 To view my other projects, you can visit my Git Hub profile: [victoriamcn](https://github.com/victoriamcn)
 
